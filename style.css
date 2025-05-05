@@ -12,14 +12,14 @@ body {
     max-width: 100%;
     margin: 0 auto;
     column-count: 2;
-    column-gap: 15px;
+    column-gap: 10px;
 }
 .grid img{
     display: block;
     width: 100%;
     height: auto;
     margin: 0 0 15px 0;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .text {
@@ -31,7 +31,7 @@ body {
     max-width: 100%;
     margin: 0 auto;
     column-count: 4;
-    column-gap: 15px;
+    column-gap: 10px;
 
 } 
 
@@ -40,7 +40,7 @@ body {
     width: 100%;
     height: auto;
     margin: 0 0 15px 0;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .border img {
@@ -53,7 +53,7 @@ body {
     max-width: 100%;
     margin: 0 auto;
     column-count: 4;
-    column-gap: 15px;
+    column-gap: 10px;
 }
 
 .videos video {
@@ -61,7 +61,7 @@ body {
     width: 100%;
     height: auto;
     margin: 0 0 15px 0;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 @media (max-width:1400px) {
@@ -84,6 +84,6 @@ body {
 
 @media (max-width:800px) {
     .border , .border2 , .border3 , .grid , .videos {
-        column-count: 1;
+        column-count: 2;
     }
 }
