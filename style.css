@@ -84,6 +84,6 @@ body {
 
 @media (max-width:800px) {
     .border , .border2 , .border3 , .grid , .videos {
-        column-count: 2;
+        column-count: 1;
     }
 }
